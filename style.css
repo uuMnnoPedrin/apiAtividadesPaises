@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300;400&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+body{
+    background-color: #121212;
+    height: auto;
+    min-height: 100vh;
+}
+
+.loading{
+    color: lightblue;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #FFE69A;
+    font-size: 30px;
+}
+
+.appTitle{
+    font-family: 'Koulen', cursive;
+    font-weight: 400;
+    color: #4DB4D7;
+    font-size: 40px;
+}
+
+.subTitle{
+    margin-bottom: 65px;
+}
+
+.subSubTitulo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #4DB4D7;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.subSubTitleFav{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #48BF91;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.appTitleColor{
+    font-family: 'Koulen', cursive;
+    font-weight: 400;
+    color: #48BF91;
+}
+
+li{
+    border-radius: 5px;
+    padding: 10px 10% 10px 10%;
+    list-style: none;
+    background-color: #92B4EC;
+    margin: 10px 3% 20px 3%;
+    transition: ease .2s;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paises > span{
+    background-color: red;
+}
+
+li:hover{
+    background-color: #FFD24C;
+}
+
+.bandeirolas{
+    width:50px;
+    height:auto;
+    border-radius: 5px;
+}
+
+.totalPopulacao{
+    margin-left: 3%;
+}
+
+.totalPaises{
+    margin-left: 3%;
+}
+
+.spanLeft{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.spanRight{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.btnFavorito{
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    background-size: contain;
+    background-color: transparent;
+    background-image: url("img/emptyHeart.png");
+    border: none;
+    transition: all ease .2s;
+    
+}
+
+.btnFavorito:hover{
+    transform: scale(1.25);
+    background-image: url("img/filledHeart.png");
+}
+
+.btnJaFavorito{
+    background-image: url("img/filledHeart.png");
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    transition: all ease .2s;
+}
+
+.btnJaFavorito:hover{
+    transform: scale(1.25);
+    background-image: url("img/emptyHeart.png");
+}
+
+#paises{
+    width:50%;
+    position: absolute;
+    left: 0;
+}
+
+#favoritos{
+    width:50%;
+    position: absolute;
+    right: 0;
+}
+
+/* REGIÕES */
+.regiao{
+    background-color: #12121238;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10%;
+}
+
+.africa{
+    color: #ff434f;
+}
+
+.americas{
+    color: #ff9f43;
+}
+
+.asia{
+    color: #ffd24c;
+}
+
+.europe{
+    color: #48bf91;
+}
+
+.oceania{
+    color: #4db4d7;
+}
+
+.polar{
+    color: #92b4ec;
+}
+
+.antarcticOcean{
+    color: #92b4ec;
+}
+
+.antarctic{
+    color: #92b4ec;
+}
+
+.mensagemKawaii{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFE69A;
+    font-size: 30px;
+}
